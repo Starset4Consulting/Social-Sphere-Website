@@ -37,7 +37,7 @@ export function Strategy() {
       description="At Social Sphere, we craft effective strategies and campaigns that drive sustainable growth and elevate your brand’s presence across multiple platforms. Our expertise spans both online and offline domains, ensuring your brand captures attention, builds recognition, and achieves long-term success.  
 
       We begin with in-depth market research and competitor analysis to understand your industry landscape. This allows us to identify opportunities and create tailored strategies that position your brand for maximum impact."
-      imageSrc="https://starset4consulting.github.io/Social-clients/image3.jpg"
+      imageSrc="https://starset4consulting.github.io/Social-clients/image5.jpg"
     >
       {/* Using the image directly with necessary styling */}
       {/* <div className="relative w-full rounded-lg overflow-hidden">

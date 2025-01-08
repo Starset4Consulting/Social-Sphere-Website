@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen bg-background">
         <ScrollToTop /> {/* Add ScrollToTop here */}
-        <Header logoImageUrl="https://sonjishashank.github.io/Social-Sphere-images/Images/Squre%20-%20Profile.svg" />
+        <Header logoImageUrl="https://starset4consulting.github.io/Social-clients/image6.png" />
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
