@@ -21,7 +21,7 @@ export function Hero() {
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url((link unavailable))',
+          backgroundImage: 'url(https://starset4consulting.github.io/Social-clients/image1.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=2091&q=80)',
           backgroundSize: '100% 100vh', // Resize background image to cover full screen
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
