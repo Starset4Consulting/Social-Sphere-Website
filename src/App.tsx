@@ -11,29 +11,32 @@ import { Political } from '@/pages/services/Political';
 import { Footer } from '@/components/layout/Footer';
 import ScrollToTop from './components/ScrollToTop';  // Import ScrollToTop
 import { AboutUs } from '@/pages/AboutUs';
+import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
   return (
-    <Router>
-      <div className="flex flex-col min-h-screen bg-background">
-        <ScrollToTop /> {/* Add ScrollToTop here */}
-        <Header logoImageUrl="https://starset4consulting.github.io/Social-clients/image6.png" />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/services/web-development" element={<WebDevelopment />} />
-            <Route path="/services/seo" element={<SEO />} />
-            <Route path="/services/social-media" element={<SocialMedia />} />
-            <Route path="/services/multimedia" element={<Multimedia />} />
-            <Route path="/services/strategy" element={<Strategy />} />
-            <Route path="/services/Political" element={<Political />} />
-            <Route path="/about" element={<AboutUs />} />
-          </Routes>
-        </main>
-        <Footer /> {/* Footer will always be at the bottom */}
-      </div>
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <div className="flex flex-col min-h-screen bg-background">
+          <ScrollToTop /> {/* Add ScrollToTop here */}
+          <Header logoImageUrl="https://starset4consulting.github.io/Social-clients/image6.png" />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/services/web-development" element={<WebDevelopment />} />
+              <Route path="/services/seo" element={<SEO />} />
+              <Route path="/services/social-media" element={<SocialMedia />} />
+              <Route path="/services/multimedia" element={<Multimedia />} />
+              <Route path="/services/strategy" element={<Strategy />} />
+              <Route path="/services/Political" element={<Political />} />
+              <Route path="/about" element={<AboutUs />} />
+            </Routes>
+          </main>
+          <Footer /> {/* Footer will always be at the bottom */}
+        </div>
+      </Router>
+    </HelmetProvider>
   );
 }
 
