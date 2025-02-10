@@ -17,19 +17,18 @@ export function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center">
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(https://starset4consulting.github.io/Social-clients/image1.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=2091&q=80)', // Replace with your image URL
-          backgroundSize: '100% 100vh', // Resize background image to cover full screen
+          backgroundImage: 'url(https://starset4consulting.github.io/Social-clients/image1.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=2091&q=80)',
+          backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
-          minHeight: '100vh',
         }}
       >
         <div className="absolute inset-0 bg-black/70" />
       </div>
+
       <div className="container mx-auto px-4 z-10">
         <motion.div
           initial="hidden"
@@ -37,7 +36,7 @@ export function Hero() {
           variants={wordAnimation}
           className="max-w-3xl"
         >
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6">
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Your{' '}
             <motion.span
               key={words[currentWord]}
@@ -53,11 +52,9 @@ export function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 1 }}
-              className="text-xl sm:text-2xl text-gray-300 mb-8 glow-text"
+              className="text-xl text-gray-300 mb-8 glow-text"
             >
-              Transform your digital presence with our comprehensive marketing
-              solutions. We help businesses grow through innovative strategies and
-              cutting-edge technology.
+              Transform your digital presence with our comprehensive marketing solutions. We help businesses grow through innovative strategies and cutting-edge technology.
             </motion.p>
           </h1>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -67,12 +64,20 @@ export function Hero() {
                 variant="destructive"
                 className="group w-full sm:w-auto"
               >
-                Get Started{' '}
-                <ArrowRight
-                  className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform"
-                />
+                Get Started
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
+            {/* <Link to="/services/web-development">
+            <Button
+  size="lg"
+  variant="outline"
+  className="text-black border-black hover:bg-black/10 w-full sm:w-auto"
+>
+  Our Services
+</Button>
+
+            </Link> */}
           </div>
         </motion.div>
       </div>

@@ -10,6 +10,7 @@ import { Strategy } from '@/pages/services/Strategy';
 import { Political } from '@/pages/services/Political';
 import { Footer } from '@/components/layout/Footer';
 import ScrollToTop from './components/ScrollToTop';  // Import ScrollToTop
+import { AboutUs } from '@/pages/AboutUs';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/services/multimedia" element={<Multimedia />} />
             <Route path="/services/strategy" element={<Strategy />} />
             <Route path="/services/Political" element={<Political />} />
+            <Route path="/about" element={<AboutUs />} />
           </Routes>
         </main>
         <Footer /> {/* Footer will always be at the bottom */}
