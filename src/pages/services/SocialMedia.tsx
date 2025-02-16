@@ -37,7 +37,7 @@ export function SocialMedia() {
       
       We handle all aspects of your social media presence, from managing accounts and creating posts to content writing, scheduling, and publishing. We ensure your content is aligned with your brand’s voice, using relevant hashtags and trends to push your posts further into social media algorithms and attract the right audience.  
       "
-      imageSrc="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&h=400&fit=crop"
+      imageSrc="https://quickframe.com/wp-content/uploads/2024/07/QF-Blog_Social-Media-Marketing_-Complete-Guide-for-Advertisers-2024_1920x1080.jpg?w=800&h=400&fit=crop"
     >
       <FeatureList features={features} />
     </ServiceLayout>

@@ -33,7 +33,7 @@ export function WebDevelopment() {
       icon={Globe}
       title="Web Development"
       description="At Social Sphere, we deliver versatile web solutions tailored to your needs. From fast, visually stunning websites built with React to Android applications for businesses, we ensure your digital presence is impactful and functional. Our services also include website redesigns and maintenance to keep your platform fresh, secure, and optimized."
-      imageSrc="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop"
+      imageSrc="https://www.elexoft.com/blogs/wp-content/uploads/2021/05/technology-stack-for-web-application-main.jpg?w=800&h=400&fit=crop"
     >
       <FeatureList features={features} />
     </ServiceLayout>

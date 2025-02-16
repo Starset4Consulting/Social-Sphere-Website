@@ -33,7 +33,7 @@ export function Political() {
       description="At Social Sphere, we specialize in comprehensive election management services for political parties across India. Our expertise lies in orchestrating successful campaigns, driving effective publicity, and managing all election-related duties to ensure a seamless and impactful electoral journey.  
 
       From crafting innovative campaign strategies to conducting surveys that gauge public opinion, we provide end-to-end solutions that help political leaders connect with their constituents. With a mix of traditional methods and modern tools, including social media outreach and event management, we ensure your message reaches every corner of your electorate.  "
-      imageSrc="https://starset4consulting.github.io/Social-clients/image2.jpg"
+      imageSrc="https://www.politicaledge.in/wp-content/uploads/2022/11/election-campaign-792_348.png"
     >
       <FeatureList features={features} />
 

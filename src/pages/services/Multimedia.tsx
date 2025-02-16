@@ -36,7 +36,7 @@ export function Multimedia() {
       We offer comprehensive production services, including video creation, voiceovers, editing, and more. Whether you need polished promotional videos, engaging social media content, or high-quality podcast recordings, our team is equipped to handle every aspect of the production process from start to finish.  
       
       "
-      imageSrc="https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800&h=400&fit=crop"
+      imageSrc="https://poblenouurbandistrict.com/wp-content/uploads/2019/08/photo-1478737270239-2f02b77fc618.jpeg?w=800&h=400&fit=crop"
     >
       <FeatureList features={features} />
     </ServiceLayout>
